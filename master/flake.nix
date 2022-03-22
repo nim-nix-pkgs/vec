@@ -1,5 +1,5 @@
 {
-  description = ''A very simple vector library'';
+  description = ''A very simple vector library.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-vec-master.flake = false;
   inputs.src-vec-master.owner = "dom96";
-  inputs.src-vec-master.ref   = "refs/heads/master";
+  inputs.src-vec-master.ref   = "master";
   inputs.src-vec-master.repo  = "vec";
   inputs.src-vec-master.type  = "github";
   
